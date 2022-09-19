@@ -1,2 +1,2 @@
 # Ejercicios JavaScript
- Ejercicios Javascript en orden alfabetico
+ Diferentes Ejercicios realizados con Javascript para el aprendizaje del lenguaje.
