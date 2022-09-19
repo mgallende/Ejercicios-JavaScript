@@ -13,7 +13,7 @@ la salida debería ser [1, 2, 4, 5, 7, 8, 10].
 
  */
 
-//Esta es la solución más rápida y con menos código, evidentemente se puede hacer de distintas maneras
+//Esta es la solución más rápida y con menos código, evidentemente se puede hacer de distintas maneras, todo es cuestión de investigar
 
 function extractEachKth(inputArray, k) {
 
