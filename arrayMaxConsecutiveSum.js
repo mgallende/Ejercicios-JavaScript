@@ -1,4 +1,6 @@
-/* Teniendo un array de números enteros, diseñar una función que de como resultado, la mayor suma posible entre el número de elementos declarado en el parámetro 'k'
+/*
+
+Teniendo un array de números enteros, diseñar una función que de como resultado, la mayor suma posible entre el número de elementos declarado en el parámetro 'k'
 
 Así, para un array = [2, 3, 5, 1, 6] y un k = 2, la salida debe de ser = 8
 
@@ -10,7 +12,6 @@ Todas las posibles sumas entre cada dos números consecutivos del array son:
 1 + 6 = 7.
 
 por lo tanto la suma mayor es (3 + 5), con lo que la respuesta correcta es = 8
-
 
  */
 
@@ -37,9 +38,7 @@ Thus, the answer is 8.
 
 function arrayMaxConsecutiveSum(inputArray, k) {
 
-    let maxsum = inputArray.slice(0, k).reduce( function ( a, b ) {
-        return a + b;
-    });
+    let maxsum = inputArray.slice(0, k).reduce( ( a, b ) => a + b);
 
     let sum = maxsum;
     for(let i = k; i < inputArray.length; i++) {
@@ -55,5 +54,7 @@ function arrayMaxConsecutiveSum(inputArray, k) {
 console.log(arrayMaxConsecutiveSum([2, 3, 5, 1, 6], 2))
 
 
-// Probablemente haya otras formas de lograrlo, esta me parece correcta.
+// Probablemente hay más maneras de hacerlo, esta me parece la más sencilla y la más rápida.
+
+// There are probably more ways to do it, but this seems to me to be the simplest one.
 
