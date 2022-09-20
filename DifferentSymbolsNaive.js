@@ -26,6 +26,6 @@ function differentSymbolsNaive(s) {
 
 console.log(differentSymbolsNaive('cabcdcabad'))
 
-// Probablemente hay más maneras de hacerlo, esta me parece la más sencilla y rápida.
+// Probablemente hay más maneras de hacerlo, esta me parece, bajo mi punto de vista, la más sencilla y rápida.
 
 // There are probably more ways to do it, but this seems to me to be the simplest one.
