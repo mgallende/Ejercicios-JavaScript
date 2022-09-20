@@ -23,6 +23,6 @@ function firstDigit(inputString) {
 //Example
 console.log(firstDigit('var_1__Int')) // result = 1 - the first digit
 
-// Probablemente hay más maneras de hacerlo, esta me parece la más sencilla.
+// Probablemente hay más maneras de hacerlo, esta me parece la más sencilla y la más rápida.
 
 // There are probably more ways to do it, but this seems to me to be the simplest one.
