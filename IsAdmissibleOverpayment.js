@@ -29,3 +29,5 @@ function Percentage(notes) {
 console.log(solution([110, 95, 70], ["10.0% higher than in-store",
     "5.0% lower than in-store",
     "Same as in-store"], 5))
+
+    
